@@ -1,3 +1,4 @@
+
 function calculate_bmi(height:number, weight:number): number {
         height = height/100
     

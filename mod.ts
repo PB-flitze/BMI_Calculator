@@ -1,1 +1,1 @@
-export * from "./bmi.ts"
+export * from "./src/bmi"

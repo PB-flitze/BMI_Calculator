@@ -1,15 +1,8 @@
-class BMI_Calculator{
-    height: number;
-    weight: number;
-    bmi: number;
-
-    calculate_bmi(height, weight, bmi){
-    
+function calculate_bmi(height:number, weight:number): number {
         height = height/100
     
-        bmi = weight/(height*height)
-
-        console.log("your BMI is" + bmi);
-    }
-console
+        return weight/(height*height)
 }
+console.log("your BMI is " + calculate_bmi(180,80) );
+
+

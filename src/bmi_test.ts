@@ -1,11 +1,11 @@
-import { assertEquals } from "https://deno.land/std@0.86.0/testing/asserts"
-
 import { bmi } from "./bmi.ts"
 
+import { assertEquals } from "https://deno.land/std@0.125.0/testing/asserts.ts";
 
-Deno.test("should yield correct values for mean/variance/stdev", async () => {
+Deno.test("should give you the bmi", async () => {
 
-    assertEquals(calculate_bmi(180,99))
+})
 
 
 
+// problem: https://github.com/denoland/vscode_deno/issues/66   

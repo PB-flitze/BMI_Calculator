@@ -20,3 +20,13 @@ console.log(bmi_calculator())
 
 
 ## Testing
+// run the following code to test the function
+```
+deno run --allow-net https://deno.land/x/bmi_calculator@0.1.1/bmi_test.ts
+```
+
+### Problems
+One Problem was that the testing wasn`t working and i got the Description "cannot find name 'deno'
+
+to following link from Github helped me solve this Problem
+- https://github.com/denoland/vscode_deno/issues/66

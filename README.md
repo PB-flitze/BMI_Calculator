@@ -7,6 +7,12 @@ Feel free to update and comment some change ideas.
 ### Usage with Command Line 
 For the Usage of the deno Modul use the following input for the Command Line
 
+deno run --allow-net https://deno.land/x/bmi_calculator@0.1.1/usage_example.ts
+
 #### Usage Example
+import { bmi } from "https://deno.land/x/bmi_calculator@0.1.1/mod.ts";
+
+// Console log every function with sample array
+console.log(bmi_calculator())
 
 ## Testing
